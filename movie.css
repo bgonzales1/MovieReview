@@ -1,0 +1,131 @@
+body{
+	background-image: url("https://codd.cs.gsu.edu/~bgonzales1/Assignment01/HW2/images2/background.png");
+	font-size: 8px;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin:0;
+	padding:0;
+
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 24pt;
+	
+}
+
+#content {
+	width: 800px;
+	border-radius: 20px;
+	overflow: hidden;
+	margin: auto;
+	border: 4px solid gray;
+}
+
+#Ibanner {
+	text-align: center;
+	background-repeat: repeat-x;
+	height: 50px;
+	background-image: url("https://codd.cs.gsu.edu/~bgonzales1/Assignment01/HW2/images2/bannerbackground.png");
+	
+}
+
+#overview {
+	width: 250px;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	float: right;
+	background: #A2B964;
+}
+
+.revcolumn p:nth-child(2n + 1) {
+	font-weight: bold;
+	font-size: 8pt;
+	
+	background: #E1D697;
+	border-radius: 10px;
+	padding: 8px;
+	border: 2px solid gray;
+	
+}
+
+.revcolumn p:nth-child(2n) {
+	margin-bottom: 20pt;
+}
+
+.revcolumn p {
+	overflow: hidden;
+}
+
+
+#overview dl {
+	margin: 0;
+	padding: 10pt;
+	
+}
+
+#overview dl dt {
+	margin-top: 10pt;
+	font-weight: bold;
+	
+}
+
+#overview dl dt:first-child {
+	margin: 0;
+}
+
+#overview dl ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+.revcolumn p img {
+	float: left;
+	margin-right: 5px;
+}
+
+#contfooter {
+	clear: both;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	background: #A2B964;
+}
+
+#reviews {
+	float: left;
+	width: 550px;
+}
+
+#revheader {
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	background-image: url("https://codd.cs.gsu.edu/~bgonzales1/Assignment01/HW2/images2/rottenbackground.png");
+	height: 83px;
+}
+
+#eighty8{
+	font-family: standard;
+	display: inline-block;
+	font-size: 8pt;
+	color:white;
+	
+}
+
+#revheader img {
+	vertical-align: text-bottom;
+}
+
+.revcolumn {
+	padding-left: 2%;
+	float: left;
+	width: 47%;
+}
+
+
+.w3c {
+	margin-left: 1em;
+	float: right;
+}
